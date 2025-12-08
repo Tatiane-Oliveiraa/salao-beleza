@@ -26,14 +26,14 @@
 /* EDITÁVEL: Personalize as cores principais do tema aqui */
 :root {
     /* Cores principais - tons de dourado, preto e rosa */
-    --primary: #d4af37;           /* Dourado principal */
-    --primary-dark: #b8960f;      /* Dourado escuro */
+    --primary: #eb7688;           /* Dourado principal */
+    --primary-dark: #faacd9;      /* Dourado escuro */
     --secondary: #ff6b9d;         /* Rosa vibrante */
     --accent: #1a1a1a;            /* Preto elegante */
 
     /* Cores de fundo */
-    --bg: #fefefe;                /* Fundo principal (quase branco) */
-    --bg-alt: #fff5e6;            /* Fundo alternativo (creme dourado) */
+    --bg: #d6d2d2;                /* Fundo principal (quase branco) */
+    --bg-alt: #d1c5c5;            /* Fundo alternativo (creme dourado) */
 
     /* Cores de texto */
     --text: #1a1a1a;              /* Texto principal (preto) */
@@ -567,7 +567,7 @@ section {
 /* EDITÁVEL: Imagem do serviço */
 .servico-image {
     width: 100%;
-    height: 180px;
+    height: 250px;
     overflow: hidden;
 }
 

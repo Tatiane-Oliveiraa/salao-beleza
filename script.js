@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // EDITÁVEL: Altere a mensagem padrão aqui
     const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
     const defaultMessage = encodeURIComponent(
-        'Olá! Gostaria de agendar um horário no Studio Hair & Beauty.'
+        'Olá! Gostaria de agendar um horário no Studio Tais Oliveira.'
     );
 
     // Adiciona a mensagem padrão se não houver uma
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (mapaPlaceholder) {
         mapaPlaceholder.addEventListener('click', function() {
             // EDITÁVEL: Altere o endereço aqui
-            const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Rua+das+Flores+456+Jardim+Paulista+São+Paulo+SP';
+            const mapsUrl = 'https://maps.app.goo.gl/THkQoKBuYBfE13uW7';
             window.open(mapsUrl, '_blank');
         });
     }
